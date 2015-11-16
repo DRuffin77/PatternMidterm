@@ -1,4 +1,6 @@
- var valueA;
+ // global variable for color
+
+var valueA;
  var valueB;
 
 
@@ -9,14 +11,13 @@
 
 
 
-
+// Colors
      valueA = "black";
-
      valueB = "white";
      myPattern();
  }
 
-
+// Loop Function
 function myPattern(){
     var x = 0;
      var y = 0;
@@ -41,7 +42,7 @@ function myPattern(){
 
 
 
-
+// drawing triangles
  function drawPattern(x, y) {
      console.log('valuea',valueA);
 
