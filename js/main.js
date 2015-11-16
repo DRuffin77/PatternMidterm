@@ -1,6 +1,6 @@
  // global variable for color
 
-var valueA;
+ var valueA;
  var valueB;
 
 
@@ -11,15 +11,15 @@ var valueA;
 
 
 
-// Colors
+     // Colors
      valueA = "black";
      valueB = "white";
      myPattern();
  }
 
-// Loop Function
-function myPattern(){
-    var x = 0;
+ // Loop Function
+ function myPattern() {
+     var x = 0;
      var y = 0;
      var colWidth = 200;
      var rowHeight = 200;
@@ -37,14 +37,14 @@ function myPattern(){
              y += rowHeight;
          }
      }
-}
+ }
 
 
 
 
-// drawing triangles
+ // drawing triangles
  function drawPattern(x, y) {
-     console.log('valuea',valueA);
+     console.log('valuea', valueA);
 
 
      //top triangle
@@ -107,36 +107,29 @@ function myPattern(){
 
  }
 
- function mousePressed() {
-// console.log("valueA", valueA);
-//     console.log("valueB", valueB);
+ function mouseDragged() {
+     // console.log("valueA", valueA);
+     //     console.log("valueB", valueB);
+
      if (valueA === 'black') {
-//         console.log("black");
+         //         console.log("black");
          valueA = 'white';
 
          valueB = 'black';
      } else {
-//         console.log("white");
+         //         console.log("white");
          valueA = 'black';
          valueB = 'white';
      }
-//      console.log("valueA", valueA);
-//     console.log("valueB", valueB);
+     //      console.log("valueA", valueA);
+     //     console.log("valueB", valueB);
 
      myPattern();
+
      //    valueA = color('red');
      //    valueB = color('black');
 
-//     console.log("mousePressed");
+     //     console.log("mousePressed");
 
 
  }
-
-
-
-
-
-
-
-
-
