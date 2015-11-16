@@ -39,10 +39,7 @@ function myPattern(){
 }
 
 
-function ClickablePattern(){
 
-
-    }
 
 
  function drawPattern(x, y) {
