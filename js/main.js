@@ -7,12 +7,11 @@
      var cnv = createCanvas(1000, 1000);
      cnv.parent("Pattern");
 
-     //draw a window
-     //drawPattern(0,0,200,0,100,100);
 
-//     valueA = color('black');
+
+
      valueA = "black";
-//     valueB = color('white');
+
      valueB = "white";
      myPattern();
  }
@@ -143,64 +142,3 @@ function ClickablePattern(){
 
 
 
- //    function drawPattern(startX1,startY1,startX2,startY2,startX3,startY3){
- //
- //    //top triangle
- //    fill('black');
- //    noStroke();
- //    triangle(startX1,startY1,startX2+200,startY2,startX3+100,startY3+100);
- //
- //    fill('white');
- //    noStroke();
- //    triangle(startX1+40,startY1,startX2-40,startY2,startX3,startY3-40);
- //
- //    fill('black');
- //    noStroke();
- //    triangle(startX1+80,startY1,startX2-80,startY2,startX3,startY3-80);
- //
- //    //left triangle
- //   fill('white');
- //   noStroke();
- //    triangle(startX1,startY1,startX2-200,startY2+200,startX3,startY3);
- //
- //    fill('black');
- //    noStroke();
- //    triangle(startX1,startY1+40,startX2-200,startY2+160,startX3-40,startY3);
- //
- //     fill('white');
- //   noStroke();
- //    triangle(startX1,startY1+80,startX2-200,startY2+120,startX3-80,startY3);
- //
- //
- //
- //    //bottom triangle
- //    fill('black');
- //    noStroke();
- //    triangle(startX1,startY1+200,startX2,startY2+200,startX3,startY3);
- //
- //    fill('white');
- //    noStroke();
- //    triangle(startX1+40,startY1+200,startX2-40,startY2+200,startX3,startY3+40);
- //
- //    fill('black');
- //    noStroke();
- //    triangle(startX1+80,startY1+200,startX2-80,startY2+200,startX3,startY3+80);
- //
- //
- //
- //
- //    //right triangle
- //     fill('white');
- //   noStroke();
- //    triangle(startX1+200,startY1,startX2,startY2+200,startX3,startY3);
- //
- //    fill('black');
- //   noStroke();
- //    triangle(startX1+200,startY1+40,startX2,startY2+160,startX3+40,startY3);
- //
- //    fill('white');
- //   noStroke();
- //    triangle(startX1+200,startY1+80,startX2,startY2+120,startX3+80,startY3);
- //
- //
- //}
